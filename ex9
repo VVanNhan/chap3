@@ -1,0 +1,12 @@
+public class ex9 {
+    public static void main(String[] args) {
+        int solonnhat = 0;
+        for (int i = 100; i >= 1; i--) {
+            if (i % 7 == 0) {
+                solonnhat = i;
+                break;
+            }
+        }
+        System.out.println(solonnhat);
+    }
+}
