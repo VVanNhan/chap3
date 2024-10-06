@@ -1,0 +1,27 @@
+public class ex15 {
+    public static void main(String[] args) {
+        int a=4,b=1,c=6,d=2,e=5;
+        for (int i=0; i<a; i++) {
+            for (int j=0; j<c; j++){
+                System.out.print(" ");
+            }
+            c-=2;
+            for (int j=0; j<b; j++){
+                System.out.print("* ");
+            }
+            b+=2;
+            System.out.println();
+        }
+        for (int i=0; i<a-1; i++){
+            for (int j=0; j<d; j++){
+                System.out.print(" ");
+            }
+            d+=2;
+            for (int j=0; j<e; j++){
+                System.out.print("* ");
+            }
+            e-=2;
+            System.out.println();
+        }
+    }
+}
